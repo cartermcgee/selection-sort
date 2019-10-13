@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.Scanner;
 
-public class hw1_Q4
+public class SelectionSort
 {
 	public static void main(String[] args) throws IOException
 	{
@@ -10,8 +10,8 @@ public class hw1_Q4
 		int[] A = new int[ARRAY_SIZE];
 	
 		int n = 0;// the number of elements stored in A
-		String inputFile = "hw1_Q4_input.txt"; // the name of the input file 
-		String outputFile = "hw1_Q4_output.txt"; // the name of the output file 
+		String inputFile = "input.txt"; // the name of the input file 
+		String outputFile = "output.txt"; // the name of the output file 
 
 		//read the numbers from the input file to array A in a function input(), which will return the number of elements of A; you do not need to change anything in the function
 		n = input(A, inputFile); 
